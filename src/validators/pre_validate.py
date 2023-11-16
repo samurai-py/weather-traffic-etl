@@ -35,4 +35,4 @@ def run_pre_validate(file_path, validation_cols_json):
 if __name__ == "__main__":
     # Modifique os caminhos dos arquivos e do JSON conforme necessário
     run_pre_validate(file_path='../../data/weather_raw_data.csv', validation_cols_json='validation_assets/cols/weather_cols.json')
-    run_pre_validate(file_path='../../data/routes_raw_data.csv', validation_cols_json='validation_assets/cols/routes_cols.json')
+    run_pre_validate(file_path='../../data/directions_raw_data.csv', validation_cols_json='validation_assets/cols/directions_cols.json')

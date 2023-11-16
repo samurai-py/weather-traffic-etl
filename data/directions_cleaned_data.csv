@@ -1,0 +1,7 @@
+origin,destination,duration,distance,current_time,origin_name_normalized,destination_name_normalized
+Recife,São José dos Campos,1 dia 13 horas,2.581 km,2023-11-16 13:45:41,Recife,Sao Jose dos Campos
+Recife,São Paulo,1 dia 13 horas,2.635 km,2023-11-16 13:45:42,Recife,Sao Paulo
+São José dos Campos,São Paulo,1 hora 22 minutos,"92,2 km",2023-11-16 13:45:43,Sao Jose dos Campos,Sao Paulo
+São José dos Campos,Recife,1 dia 13 horas,2.583 km,2023-11-16 13:45:43,Sao Jose dos Campos,Recife
+São Paulo,Recife,1 dia 13 horas,2.639 km,2023-11-16 13:45:44,Sao Paulo,Recife
+São Paulo,São José dos Campos,1 hora 19 minutos,"91,8 km",2023-11-16 13:45:45,Sao Paulo,Sao Jose dos Campos

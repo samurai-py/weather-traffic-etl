@@ -1,31 +1,18 @@
 import pandas as pd
-from unicodedata import normalize
+from operators.transformers.weather import weather_transform
+from operators.transformers.directions import directions_transform
 
-def normalize_string(s):
-    return normalize('NFKD', s).encode('ASCII', 'ignore').decode('utf-8')
-
-def run_transform(output_path='../../data/transformed_data.csv'):
+def run_transform(weather_output_path='../../data/weather_cleaned_data.csv', directions_output_path='../../data/directions_cleaned_data.csv'):
     try:
-        df = pd.read_csv('../../data/raw_data.csv')
-        df['localtime'] = pd.to_datetime(df['localtime'])
-        df['last_updated'] = pd.to_datetime(df['last_updated'])
-        df = df.drop(columns=['condition', 'name'], axis=1)
-
-        df.rename(columns={'text': 'condition',
-                           'real_city_name': 'name'}, inplace=True)
-        result = df[['name', 'region', 'country','lat', 'lon', 'tz_id','condition','temp_c', 'temp_f',
-            'is_day', 'wind_mph', 'pressure_mb', 'precip_mm', 'humidity', 'cloud', 'feelslike_c', 'feelslike_f',
-            'localtime', 'last_updated']]
         
-        result['name_normalized'] = result['name'].apply(normalize_string)
-
-        # Removendo duplicatas no DataFrame final
-        result.drop_duplicates(inplace=True)
-        result.reset_index(drop=True, inplace=True)
+        weather_result = weather_transform()
+        directions_result = directions_transform()
         
         # Salve o DataFrame em um arquivo CSV
-        result.to_csv(output_path, index=False)        
-        return output_path
+        weather_result.to_csv(weather_output_path, index=False)      
+        directions_result.to_csv(directions_output_path, index=False)    
+        
+        return weather_output_path, directions_output_path
         
     except Exception as e:
         return f"Erro durante a transformação: {str(e)}"

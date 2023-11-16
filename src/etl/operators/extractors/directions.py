@@ -5,15 +5,15 @@ from datetime import datetime
 
 GOOGLE_API_KEY = "AIzaSyDV-Nxv9OjWLs0eDrtEfEp_vQCm72XjJ84"
 
-def get_routes(dataframe=None, num_cities=None):
+def get_directions(dataframe=None, num_cities=None):
     cities_data_filtered = dataframe[:num_cities]
 
-    all_routes = list(itertools.combinations(cities_data_filtered['nome'], 2))
-    routes_df = pd.DataFrame(all_routes, columns=['origin', 'destination'])
+    all_directions = list(itertools.combinations(cities_data_filtered['nome'], 2))
+    directions_df = pd.DataFrame(all_directions, columns=['origin', 'destination'])
     
     # Adiciona as combinações inversas
-    inverse_routes = pd.DataFrame(routes_df[['destination', 'origin']].values, columns=['origin', 'destination'])
-    all_routes_df = pd.concat([routes_df, inverse_routes], ignore_index=True)
+    inverse_directions = pd.DataFrame(directions_df[['destination', 'origin']].values, columns=['origin', 'destination'])
+    all_directions_df = pd.concat([directions_df, inverse_directions], ignore_index=True)
 
     durations = []
     distances = []
@@ -21,7 +21,7 @@ def get_routes(dataframe=None, num_cities=None):
     origins = []
     destinations = []
 
-    for index, row in all_routes_df.iterrows():
+    for index, row in all_directions_df.iterrows():
         origin_name = row['origin']
         destination_name = row['destination']
 
@@ -57,10 +57,10 @@ def get_routes(dataframe=None, num_cities=None):
             origins.append(None)
             destinations.append(None)
 
-    all_routes_df['duration'] = durations
-    all_routes_df['distance'] = distances
-    all_routes_df['current_time'] = current_times
-    all_routes_df['origin'] = origins
-    all_routes_df['destination'] = destinations
+    all_directions_df['duration'] = durations
+    all_directions_df['distance'] = distances
+    all_directions_df['current_time'] = current_times
+    all_directions_df['origin'] = origins
+    all_directions_df['destination'] = destinations
 
-    return all_routes_df
+    return all_directions_df
