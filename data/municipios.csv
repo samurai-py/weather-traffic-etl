@@ -2,3 +2,44 @@ codigo_ibge,nome,latitude,longitude,capital,codigo_uf,siafi_id,ddd,fuso_horario
 2611606,Recife,-8.04666,-34.8771,1,26,2531,81,America/Sao_Paulo
 3549904,São José dos Campos,-23.1896,-45.8841,0,35,7099,12,America/Sao_Paulo
 3550308,São Paulo,-23.5329,-46.6395,1,35,7107,11,America/Sao_Paulo
+3508504,Caçapava,-23.0992,-45.7076,0,35,6271,12,America/Sao_Paulo
+3520202,Igaratá,-23.207533, -46.153790,35,6505,11,America/Sao_Paulo
+3524402,Jacareí,-23.2983,-45.9658,0,35,6589,12,America/Sao_Paulo
+3524907,Jambeiro,-23.2522,-45.6942,0,35,6599,12,America/Sao_Paulo
+3531704,Monteiro Lobato,-22.9544,-45.8407,0,35,6735,12,America/Sao_Paulo
+3535606,Paraibuna,-23.3872,-45.6639,0,35,6813,12,America/Sao_Paulo
+3546009,Santa Branca,-23.3933,-45.8875,0,35,7021,12,America/Sao_Paulo
+3509700,Campos do Jordão,-22.7296,-45.5833,0,35,6295,12,America/Sao_Paulo
+3526308,Lagoinha,-23.0846,-45.1944,0,35,6627,12,America/Sao_Paulo
+3532306,Natividade da Serra,-23.3707,-45.4468,0,35,6747,12,America/Sao_Paulo
+3538006,Pindamonhangaba,-22.9246,-45.4613,0,35,6861,12,America/Sao_Paulo
+3542305,Redenção da Serra,-23.2638,-45.5422,0,35,6947,12,America/Sao_Paulo
+3548203,Santo Antônio do Pinhal,-22.827,-45.663,0,35,7065,12,America/Sao_Paulo
+3548609,São Bento do Sapucaí,-22.6837,-45.7287,0,35,7073,12,America/Sao_Paulo
+3550001,São Luiz do Paraitinga,-23.222,-45.3109,0,35,7101,12,America/Sao_Paulo
+3554102,Taubaté,-23.0104,-45.5593,0,35,7183,12,America/Sao_Paulo
+3554805,Tremembé,-22.9571,-45.5475,0,35,7197,12,America/Sao_Paulo
+3502507,Aparecida,-22.8495,-45.2325,0,35,6149,12,America/Sao_Paulo
+3508603,Cachoeira Paulista,-22.6665,-45.0154,0,35,6273,12,America/Sao_Paulo
+3509957,Canas,-22.7003,-45.0521,0,35,0794,12,America/Sao_Paulo
+3513603,Cunha,-23.0731,-44.9576,0,35,6373,12,America/Sao_Paulo
+3518404,Guaratinguetá,-22.8075,-45.1938,0,35,6469,12,America/Sao_Paulo
+3527207,Lorena,-22.7334,-45.1197,0,35,6645,12,America/Sao_Paulo
+3538501,Piquete,-22.6069,-45.1869,0,35,6871,12,America/Sao_Paulo
+3540754,Potim,-22.8343,-45.2552,0,35,2993,12,America/Sao_Paulo
+3544301,Roseira,-22.8938,-45.307,0,35,6987,12,America/Sao_Paulo
+3503158,Arapeí,-22.6717,-44.4441,0,35,2991,12,America/Sao_Paulo
+3503505,Areias,-22.5786,-44.6992,0,35,6169,12,America/Sao_Paulo
+3504909,Bananal,-22.6819,-44.3281,0,35,6197,12,America/Sao_Paulo
+3513405,Cruzeiro,-22.5728,-44.969,0,35,6369,12,America/Sao_Paulo
+3526605,Lavrinhas,-22.57,-44.9024,0,35,6633,12,America/Sao_Paulo
+3541901,Queluz,-22.5312,-44.7781,0,35,6939,12,America/Sao_Paulo
+3549607,São José do Barreiro,-22.6414,-44.5774,0,35,7093,12,America/Sao_Paulo
+3552007,Silveiras,-22.6638,-44.8522,0,35,7141,12,America/Sao_Paulo
+3510500,Caraguatatuba,-23.6125,-45.4125,0,35,6311,12,America/Sao_Paulo
+3520400,Ilhabela,-23.7785,-45.3552,0,35,6509,12,America/Sao_Paulo
+3550704,São Sebastião,-23.7951,-45.4143,0,35,7115,12,America/Sao_Paulo
+3555406,Ubatuba,-23.4332,-45.0834,0,35,7209,12,America/Sao_Paulo
+
+
+

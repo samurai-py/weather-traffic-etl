@@ -1,0 +1,13 @@
+{
+    "cols": [
+      "name",
+      "region",
+      "country",
+      "lat",
+      "lon",
+      "tz_id",
+      "localtime",
+      "last_updated"
+    ]
+  }
+  
