@@ -1,0 +1,4 @@
+name,region,country,lat,lon,tz_id,condition,temp_c,temp_f,is_day,wind_mph,pressure_mb,precip_mm,humidity,cloud,feelslike_c,feelslike_f,localtime,last_updated
+Recife,Pernambuco,Brazil,-8.05,-34.88,America/Recife,Partly cloudy,27.0,80.6,0.0,9.4,1011.0,0.04,79.0,50.0,30.2,86.3,2023-11-16 1:35,2023-11-16 01:30
+Sao Jose Dos Campos,Sao Paulo,Brazil,-23.19,-45.88,America/Sao_Paulo,Clear,21.1,69.9,0.0,5.4,1009.0,0.0,74.0,8.0,21.1,69.9,2023-11-16 1:35,2023-11-16 01:30
+Sao Paulo,Sao Paulo,Brazil,-23.53,-46.64,America/Sao_Paulo,Clear,22.0,71.6,0.0,8.1,1013.0,0.0,78.0,0.0,24.5,76.2,2023-11-16 1:35,2023-11-16 01:30

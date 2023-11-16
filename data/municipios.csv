@@ -1,0 +1,4 @@
+codigo_ibge,nome,latitude,longitude,capital,codigo_uf,siafi_id,ddd,fuso_horario
+2611606,Recife,-8.04666,-34.8771,1,26,2531,81,America/Sao_Paulo
+3549904,São José dos Campos,-23.1896,-45.8841,0,35,7099,12,America/Sao_Paulo
+3550308,São Paulo,-23.5329,-46.6395,1,35,7107,11,America/Sao_Paulo
