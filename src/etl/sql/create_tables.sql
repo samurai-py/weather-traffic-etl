@@ -1,4 +1,10 @@
 -- create_tables.sql
+CREATE TABLE IF NOT EXISTS records (
+    id BIGINT PRIMARY KEY,
+    uuid VARCHAR(100)
+    created_at TIMESTAMP,
+    updated_at TIMESTAMP
+);
 
 CREATE TABLE IF NOT EXISTS location (
     id INT PRIMARY KEY,
@@ -36,12 +42,6 @@ CREATE TABLE IF NOT EXISTS directions (
     destination_id INT REFERENCES location(id),
     distance FLOAT,
     trip_long VARCHAR(100),
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP
-);
-
-CREATE TABLE IF NOT EXISTS records (
-    id BIGINT PRIMARY KEY,
     created_at TIMESTAMP,
     updated_at TIMESTAMP
 );
