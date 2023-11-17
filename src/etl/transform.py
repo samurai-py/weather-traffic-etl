@@ -8,20 +8,20 @@ def generate_uuid():
     
     return record_uuid
 
-def write_records(path='../../data/records.csv'):
+def write_records(path='../data/records.csv'):
     
     r_uuid = generate_uuid()
     records_data = pd.DataFrame({'uuid': [r_uuid]})
     records_data.to_csv(path, mode='a', header=None, index=True)
     
-def read_records(path='../../data/records.csv'):
+def read_records(path='../data/records.csv'):
     write_records()
     
     records = pd.read_csv(path)
     records_len = len(records['uuid'])
     return records_len    
 
-def run_transform(weather_output_path='../../data/weather_cleaned_data.csv', directions_output_path='../../data/directions_cleaned_data.csv'):
+def run_transform(weather_output_path='../data/weather_cleaned_data.csv', directions_output_path='../data/directions_cleaned_data.csv'):
         
     records_id = int(read_records())
     print(records_id)

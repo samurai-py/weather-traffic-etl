@@ -6,9 +6,10 @@ from datetime import datetime
 from operators.extractors.weather import get_weather
 from operators.extractors.directions import get_directions
 
-def run_extract(weather_output_path='../../data/weather_raw_data.csv', directions_output_path='../../data/directions_raw_data.csv'):
+def run_extract(weather_output_path='../data/weather_raw_data.csv', directions_output_path='../data/directions_raw_data.csv'):
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    print(f"Usando o diretório: {script_dir}")
     csv_path = os.path.join(script_dir, '../../data/municipios.csv')
     
     cities_df = pd.read_csv(csv_path)

@@ -1,42 +1,42 @@
-name,region,country,lat,lon,tz_id,condition,temp_c,temp_f,is_day,wind_mph,pressure_mb,precip_mm,humidity,cloud,feelslike_c,feelslike_f,localtime,last_updated,name_normalized,record_id
-Recife,Pernambuco,Brazil,-8.05,-34.88,America/Recife,Partly cloudy,30.0,86.0,1.0,10.5,1011.0,0.0,55.0,50.0,32.6,90.6,2023-11-16 13:44:00,2023-11-16 13:30:00,Recife,11
-São José dos Campos,Sao Paulo,Brazil,-23.19,-45.88,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,30.9,87.5,2023-11-16 13:40:00,2023-11-16 13:30:00,Sao Jose dos Campos,11
-São Paulo,Sao Paulo,Brazil,-23.53,-46.64,America/Sao_Paulo,Sunny,31.0,87.8,1.0,11.9,1011.0,0.0,41.0,0.0,29.1,84.4,2023-11-16 13:44:00,2023-11-16 13:30:00,Sao Paulo,11
-Caçapava,Sao Paulo,Brazil,-23.1,-45.71,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.6,88.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Cacapava,11
-Igaratá,Sao Paulo,Brazil,-23.21,-46.15,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.3,88.3,2023-11-16 13:44:00,2023-11-16 13:30:00,Igarata,11
-Jacareí,Sao Paulo,Brazil,-23.3,-45.97,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.3,88.3,2023-11-16 13:44:00,2023-11-16 13:30:00,Jacarei,11
-Jambeiro,Sao Paulo,Brazil,-23.25,-45.69,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.4,88.5,2023-11-16 13:44:00,2023-11-16 13:30:00,Jambeiro,11
-Monteiro Lobato,Sao Paulo,Brazil,-22.95,-45.84,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.5,88.6,2023-11-16 13:44:00,2023-11-16 13:30:00,Monteiro Lobato,11
-Paraibuna,Sao Paulo,Brazil,-23.39,-45.66,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.4,88.5,2023-11-16 13:44:00,2023-11-16 13:30:00,Paraibuna,11
-Santa Branca,Sao Paulo,Brazil,-23.39,-45.89,America/Sao_Paulo,Partly cloudy,33.0,91.4,1.0,5.6,1010.0,0.0,47.0,25.0,31.0,87.7,2023-11-16 13:44:00,2023-11-16 13:30:00,Santa Branca,11
-Campos do Jordão,Sao Paulo,Brazil,-22.73,-45.58,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,33.2,91.7,2023-11-16 13:40:00,2023-11-16 13:30:00,Campos do Jordao,11
-Lagoinha,Sao Paulo,Brazil,-23.08,-45.19,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,34.0,93.2,2023-11-16 13:44:00,2023-11-16 13:30:00,Lagoinha,11
-Natividade da Serra,Sao Paulo,Brazil,-23.37,-45.45,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,36.5,97.6,2023-11-16 13:44:00,2023-11-16 13:30:00,Natividade da Serra,11
-Pindamonhangaba,Sao Paulo,Brazil,-22.92,-45.46,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,33.9,93.1,2023-11-16 13:44:00,2023-11-16 13:30:00,Pindamonhangaba,11
-Redenção da Serra,Sao Paulo,Brazil,-23.26,-45.54,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,34.0,93.1,2023-11-16 13:44:00,2023-11-16 13:30:00,Redencao da Serra,11
-Santo Antônio do Pinhal,Sao Paulo,Brazil,-22.83,-45.66,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,33.9,93.1,2023-11-16 13:44:00,2023-11-16 13:30:00,Santo Antonio do Pinhal,11
-São Bento do Sapucaí,Minas Gerais,Brazil,-22.68,-45.73,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,33.9,93.1,2023-11-16 13:44:00,2023-11-16 13:30:00,Sao Bento do Sapucai,11
-São Luiz do Paraitinga,Sao Paulo,Brazil,-23.22,-45.31,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,34.0,93.2,2023-11-16 13:44:00,2023-11-16 13:30:00,Sao Luiz do Paraitinga,11
-Taubaté,Sao Paulo,Brazil,-23.01,-45.56,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,34.1,93.4,2023-11-16 13:44:00,2023-11-16 13:30:00,Taubate,11
-Tremembé,Sao Paulo,Brazil,-22.96,-45.55,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,33.7,92.6,2023-11-16 13:44:00,2023-11-16 13:30:00,Tremembe,11
-Aparecida,Sao Paulo,Brazil,-22.85,-45.23,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Aparecida,11
-Cachoeira Paulista,Sao Paulo,Brazil,-22.67,-45.02,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.8,92.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Cachoeira Paulista,11
-Canas,Sao Paulo,Brazil,-22.7,-45.05,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.8,92.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Canas,11
-Cunha,Sao Paulo,Brazil,-23.07,-44.96,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,34.0,93.2,2023-11-16 13:41:00,2023-11-16 13:30:00,Cunha,11
-Guaratinguetá,Sao Paulo,Brazil,-22.81,-45.19,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.7,2023-11-16 13:44:00,2023-11-16 13:30:00,Guaratingueta,11
-Lorena,Sao Paulo,Brazil,-22.73,-45.12,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.7,2023-11-16 13:44:00,2023-11-16 13:30:00,Lorena,11
-Piquete,Sao Paulo,Brazil,-22.61,-45.19,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.7,2023-11-16 13:44:00,2023-11-16 13:30:00,Piquete,11
-Potim,Sao Paulo,Brazil,-22.83,-45.26,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Potim,11
-Roseira,Sao Paulo,Brazil,-22.89,-45.31,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.2,91.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Roseira,11
-Arapeí,Sao Paulo,Brazil,-22.67,-44.44,America/Sao_Paulo,Sunny,34.6,94.2,1.0,2.2,1006.0,0.0,24.0,7.0,33.4,92.1,2023-11-16 13:44:00,2023-11-16 13:30:00,Arapei,11
-Areias,Rio de Janeiro,Brazil,-22.58,-44.7,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.8,92.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Areias,11
-Bananal,Rio de Janeiro,Brazil,-22.68,-44.33,America/Sao_Paulo,Sunny,38.8,101.9,1.0,5.6,1004.0,0.0,26.0,8.0,40.2,104.4,2023-11-16 13:44:00,2023-11-16 13:30:00,Bananal,11
-Cruzeiro,Sao Paulo,Brazil,-22.57,-44.97,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.7,92.7,2023-11-16 13:44:00,2023-11-16 13:30:00,Cruzeiro,11
-Lavrinhas,Sao Paulo,Brazil,-22.57,-44.9,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.7,92.7,2023-11-16 13:41:00,2023-11-16 13:30:00,Lavrinhas,11
-Queluz,Sao Paulo,Brazil,-22.53,-44.78,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.8,92.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Queluz,11
-São José do Barreiro,Rio de Janeiro,Brazil,-22.64,-44.58,America/Sao_Paulo,Sunny,39.3,102.7,1.0,2.2,1006.0,0.0,23.0,8.0,39.8,103.6,2023-11-16 13:41:00,2023-11-16 13:30:00,Sao Jose do Barreiro,11
-Silveiras,Sao Paulo,Brazil,-22.66,-44.85,America/Sao_Paulo,Sunny,35.0,95.0,1.0,2.2,1009.0,0.0,37.0,0.0,33.8,92.8,2023-11-16 13:44:00,2023-11-16 13:30:00,Silveiras,11
-Caraguatatuba,Sao Paulo,Brazil,-23.61,-45.41,America/Sao_Paulo,Sunny,34.6,94.2,1.0,2.2,1006.0,0.0,35.0,13.0,35.8,96.4,2023-11-16 13:44:00,2023-11-16 13:30:00,Caraguatatuba,11
-Ilhabela,Sao Paulo,Brazil,-23.78,-45.36,America/Sao_Paulo,Sunny,31.7,89.1,1.0,4.0,1005.0,0.0,49.0,10.0,34.2,93.5,2023-11-16 13:44:00,2023-11-16 13:30:00,Ilhabela,11
-São Sebastião,Sao Paulo,Brazil,-23.8,-45.41,America/Sao_Paulo,Sunny,31.7,89.1,1.0,4.0,1005.0,0.0,49.0,10.0,34.2,93.5,2023-11-16 13:44:00,2023-11-16 13:30:00,Sao Sebastiao,11
-Ubatuba,Sao Paulo,Brazil,-23.43,-45.08,America/Sao_Paulo,Sunny,35.0,95.0,1.0,10.5,1009.0,0.0,27.0,0.0,36.5,97.6,2023-11-16 13:44:00,2023-11-16 13:30:00,Ubatuba,11
+name,region,country,lat,lon,tz_id,condition,temp_c,temp_f,is_day,wind_mph,pressure_mb,precip_mm,humidity,cloud,feelslike_c,feelslike_f,localtime,last_updated,name_normalized,system_id,record_id
+Recife,Pernambuco,Brazil,-8.05,-34.88,America/Recife,Partly cloudy,27.0,80.6,0.0,6.9,1011.0,0.2,79.0,50.0,30.2,86.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Recife,2611606,18
+São José dos Campos,Sao Paulo,Brazil,-23.19,-45.88,America/Sao_Paulo,Clear,19.2,66.5,0.0,2.7,1009.0,0.0,88.0,14.0,19.2,66.5,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Jose dos Campos,3549904,18
+São Paulo,Sao Paulo,Brazil,-23.53,-46.64,America/Sao_Paulo,Clear,24.0,75.2,0.0,3.8,1012.0,0.0,74.0,0.0,25.9,78.6,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Paulo,3550308,18
+Caçapava,Sao Paulo,Brazil,-23.1,-45.71,America/Sao_Paulo,Clear,20.6,69.1,0.0,4.0,1011.0,0.0,81.0,11.0,20.6,69.1,2023-11-17 01:59:00,2023-11-17 01:45:00,Cacapava,3508504,18
+Igaratá,Sao Paulo,Brazil,-23.21,-46.15,America/Sao_Paulo,Clear,23.0,73.4,0.0,3.8,1011.0,0.0,83.0,0.0,25.1,77.3,2023-11-17 02:03:00,2023-11-17 02:00:00,Igarata,3520202,18
+Jacareí,Sao Paulo,Brazil,-23.3,-45.97,America/Sao_Paulo,Clear,23.0,73.4,0.0,3.8,1011.0,0.0,83.0,0.0,25.1,77.3,2023-11-17 02:03:00,2023-11-17 02:00:00,Jacarei,3524402,18
+Jambeiro,Sao Paulo,Brazil,-23.25,-45.69,America/Sao_Paulo,Partly cloudy,21.1,69.9,0.0,2.5,1011.0,0.0,85.0,31.0,21.1,69.9,2023-11-17 01:59:00,2023-11-17 01:45:00,Jambeiro,3524907,18
+Monteiro Lobato,Sao Paulo,Brazil,-22.95,-45.84,America/Sao_Paulo,Partly cloudy,18.6,65.5,0.0,2.2,1010.0,0.0,92.0,26.0,18.6,65.5,2023-11-17 02:02:00,2023-11-17 02:00:00,Monteiro Lobato,3531704,18
+Paraibuna,Sao Paulo,Brazil,-23.39,-45.66,America/Sao_Paulo,Clear,20.9,69.6,0.0,2.2,1010.0,0.0,87.0,24.0,20.9,69.6,2023-11-17 02:03:00,2023-11-17 02:00:00,Paraibuna,3535606,18
+Santa Branca,Sao Paulo,Brazil,-23.39,-45.89,America/Sao_Paulo,Clear,23.0,73.4,0.0,3.8,1011.0,0.0,83.0,0.0,25.3,77.5,2023-11-17 02:03:00,2023-11-17 02:00:00,Santa Branca,3546009,18
+Campos do Jordão,Sao Paulo,Brazil,-22.73,-45.58,America/Sao_Paulo,Clear,17.2,63.0,0.0,2.2,1010.0,0.0,81.0,10.0,17.3,63.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Campos do Jordao,3509700,18
+Lagoinha,Sao Paulo,Brazil,-23.08,-45.19,America/Sao_Paulo,Clear,20.2,68.4,0.0,2.2,1011.0,0.0,77.0,10.0,20.2,68.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Lagoinha,3526308,18
+Natividade da Serra,Sao Paulo,Brazil,-23.37,-45.45,America/Sao_Paulo,Mist,23.0,73.3,0.0,2.2,1011.0,0.0,94.0,61.0,25.3,77.6,2023-11-17 01:59:00,2023-11-17 01:45:00,Natividade da Serra,3532306,18
+Pindamonhangaba,Sao Paulo,Brazil,-22.92,-45.46,America/Sao_Paulo,Clear,17.2,63.0,0.0,2.2,1010.0,0.0,81.0,10.0,17.3,63.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Pindamonhangaba,3538006,18
+Redenção da Serra,Sao Paulo,Brazil,-23.26,-45.54,America/Sao_Paulo,Partly cloudy,18.6,65.5,0.0,2.2,1010.0,0.0,92.0,26.0,18.6,65.5,2023-11-17 02:03:00,2023-11-17 02:00:00,Redencao da Serra,3542305,18
+Santo Antônio do Pinhal,Sao Paulo,Brazil,-22.83,-45.66,America/Sao_Paulo,Clear,17.0,62.5,0.0,2.2,1010.0,0.0,81.0,10.0,17.0,62.5,2023-11-17 01:59:00,2023-11-17 01:45:00,Santo Antonio do Pinhal,3548203,18
+São Bento do Sapucaí,Minas Gerais,Brazil,-22.68,-45.73,America/Sao_Paulo,Clear,17.2,63.0,0.0,2.2,1010.0,0.0,81.0,10.0,17.3,63.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Bento do Sapucai,3548609,18
+São Luiz do Paraitinga,Sao Paulo,Brazil,-23.22,-45.31,America/Sao_Paulo,Clear,20.2,68.4,0.0,2.2,1011.0,0.0,77.0,10.0,20.2,68.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Luiz do Paraitinga,3550001,18
+Taubaté,Sao Paulo,Brazil,-23.01,-45.56,America/Sao_Paulo,Clear,20.1,68.1,0.0,2.5,1010.0,0.0,89.0,13.0,20.1,68.1,2023-11-17 02:02:00,2023-11-17 02:00:00,Taubate,3554102,18
+Tremembé,Sao Paulo,Brazil,-22.96,-45.55,America/Sao_Paulo,Clear,20.0,67.9,0.0,2.2,1009.0,0.0,91.0,16.0,20.0,67.9,2023-11-17 02:03:00,2023-11-17 02:00:00,Tremembe,3554805,18
+Aparecida,Sao Paulo,Brazil,-22.85,-45.23,America/Sao_Paulo,Clear,18.9,65.9,0.0,2.7,1010.0,0.0,63.0,11.0,18.9,65.9,2023-11-17 02:03:00,2023-11-17 02:00:00,Aparecida,3502507,18
+Cachoeira Paulista,Sao Paulo,Brazil,-22.67,-45.02,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Cachoeira Paulista,3508603,18
+Canas,Sao Paulo,Brazil,-22.7,-45.05,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Canas,3509957,18
+Cunha,Sao Paulo,Brazil,-23.07,-44.96,America/Sao_Paulo,Clear,20.2,68.4,0.0,2.2,1011.0,0.0,77.0,10.0,20.2,68.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Cunha,3513603,18
+Guaratinguetá,Sao Paulo,Brazil,-22.81,-45.19,America/Sao_Paulo,Clear,19.6,67.3,0.0,2.2,1010.0,0.0,67.0,10.0,19.6,67.3,2023-11-17 01:59:00,2023-11-17 01:45:00,Guaratingueta,3518404,18
+Lorena,Sao Paulo,Brazil,-22.73,-45.12,America/Sao_Paulo,Clear,19.1,66.4,0.0,3.1,1010.0,0.0,60.0,11.0,19.1,66.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Lorena,3527207,18
+Piquete,Sao Paulo,Brazil,-22.61,-45.19,America/Sao_Paulo,Clear,19.1,66.4,0.0,3.1,1010.0,0.0,60.0,11.0,19.1,66.4,2023-11-17 02:03:00,2023-11-17 02:00:00,Piquete,3538501,18
+Potim,Sao Paulo,Brazil,-22.83,-45.26,America/Sao_Paulo,Clear,18.9,65.9,0.0,2.7,1010.0,0.0,63.0,11.0,18.9,65.9,2023-11-17 02:02:00,2023-11-17 02:00:00,Potim,3540754,18
+Roseira,Sao Paulo,Brazil,-22.89,-45.31,America/Sao_Paulo,Clear,18.9,65.9,0.0,2.7,1010.0,0.0,63.0,11.0,18.9,65.9,2023-11-17 02:03:00,2023-11-17 02:00:00,Roseira,3544301,18
+Arapeí,Sao Paulo,Brazil,-22.67,-44.44,America/Sao_Paulo,Patchy rain possible,23.0,73.3,0.0,2.2,1009.0,0.26,71.0,75.0,25.0,77.0,2023-11-17 02:03:00,2023-11-17 02:00:00,Arapei,3503158,18
+Areias,Rio de Janeiro,Brazil,-22.58,-44.7,America/Sao_Paulo,Patchy rain possible,18.7,65.7,0.0,2.2,1010.0,0.56,70.0,77.0,18.7,65.7,2023-11-17 02:03:00,2023-11-17 02:00:00,Areias,3503505,18
+Bananal,Rio de Janeiro,Brazil,-22.68,-44.33,America/Sao_Paulo,Clear,21.2,70.1,0.0,2.2,1009.0,0.0,77.0,11.0,21.2,70.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Bananal,3504909,18
+Cruzeiro,Sao Paulo,Brazil,-22.57,-44.97,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:00:00,2023-11-17 02:00:00,Cruzeiro,3513405,18
+Lavrinhas,Sao Paulo,Brazil,-22.57,-44.9,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Lavrinhas,3526605,18
+Queluz,Sao Paulo,Brazil,-22.53,-44.78,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Queluz,3541901,18
+São José do Barreiro,Rio de Janeiro,Brazil,-22.64,-44.58,America/Sao_Paulo,Patchy rain possible,18.7,65.7,0.0,2.2,1010.0,0.56,70.0,77.0,18.7,65.7,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Jose do Barreiro,3549607,18
+Silveiras,Sao Paulo,Brazil,-22.66,-44.85,America/Sao_Paulo,Patchy rain possible,23.4,74.1,0.0,2.5,1010.0,0.18,56.0,88.0,25.0,77.1,2023-11-17 02:03:00,2023-11-17 02:00:00,Silveiras,3552007,18
+Caraguatatuba,Sao Paulo,Brazil,-23.61,-45.41,America/Sao_Paulo,Mist,22.7,72.9,0.0,2.2,1010.0,0.0,94.0,48.0,25.1,77.2,2023-11-17 02:03:00,2023-11-17 02:00:00,Caraguatatuba,3510500,18
+Ilhabela,Sao Paulo,Brazil,-23.78,-45.36,America/Sao_Paulo,Mist,21.5,70.7,0.0,2.2,1009.0,0.0,95.0,51.0,21.5,70.7,2023-11-17 02:03:00,2023-11-17 02:00:00,Ilhabela,3520400,18
+São Sebastião,Sao Paulo,Brazil,-23.8,-45.41,America/Sao_Paulo,Mist,21.5,70.7,0.0,2.2,1009.0,0.0,95.0,51.0,21.5,70.7,2023-11-17 02:03:00,2023-11-17 02:00:00,Sao Sebastiao,3550704,18
+Ubatuba,Sao Paulo,Brazil,-23.43,-45.08,America/Sao_Paulo,Mist,22.7,72.9,0.0,2.2,1010.0,0.0,94.0,48.0,25.1,77.2,2023-11-17 02:02:00,2023-11-17 02:00:00,Ubatuba,3555406,18

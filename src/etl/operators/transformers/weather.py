@@ -3,7 +3,9 @@ from unidecode import unidecode
 
 def weather_transform():
     try:
-        df = pd.read_csv('../../data/weather_raw_data.csv')
+        # Carregue o DataFrame dos municípios
+        municipios_df = pd.read_csv('../data/municipios.csv', encoding='utf-8')
+        df = pd.read_csv('../data/weather_raw_data.csv')
         df['localtime'] = pd.to_datetime(df['localtime'])
         df['last_updated'] = pd.to_datetime(df['last_updated'])
         df = df.drop(columns=['condition', 'name'], axis=1)
@@ -15,6 +17,21 @@ def weather_transform():
             'localtime', 'last_updated']]
         
         result['name_normalized'] = result['name'].apply(unidecode)
+        
+        # Faça uma fusão (merge) entre os DataFrames usando a coluna 'name_normalized' e 'nome'
+        result = pd.merge(result, municipios_df[['nome', 'codigo_ibge']], left_on='name', right_on='nome', how='left')
+        
+        # Renomeie a coluna 'cod_ibge' para 'system_id'
+        result.rename(columns={'codigo_ibge': 'system_id'}, inplace=True)
+        
+        # Remova colunas desnecessárias após a fusão
+        result.drop(['nome'], axis=1, inplace=True)
+
+        # Removendo duplicatas no DataFrame final
+        result.drop_duplicates(inplace=True)
+        result.reset_index(drop=True, inplace=True)
+
+        return result
 
         # Removendo duplicatas no DataFrame final
         result.drop_duplicates(inplace=True)

@@ -1,9 +1,0 @@
-- name: pre_validate_checkpoint
-  action_list:
-    - action: "check dataframe nulls"
-      assets_to_validate:
-        - pre_validate_ds/pre_validate_data_asset
-      run_id: "pre_validate_run"
-      run_name: "pre_validate_run_name"
-      run_time: $now
-      suite_name: "pre_validate_suite"

@@ -3,19 +3,43 @@ from unidecode import unidecode
 
 def directions_transform():
     try:
-        df = pd.read_csv('../../data/directions_raw_data.csv')
-        df['current_time'] = pd.to_datetime(df['current_time'])
         
-        result = df.copy()
+        # Leitura do CSV dos municípios
+        df_municipios = pd.read_csv('../data/municipios.csv')
         
+        # Leitura do CSV das direções
+        df_directions = pd.read_csv('../data/directions_raw_data.csv')
+        
+        df_directions['current_time'] = pd.to_datetime(df_directions['current_time'])
+        
+        # Criação de uma cópia do DataFrame
+        result = df_directions.copy()
+
+        # Normalização de nomes
         result['origin_name_normalized'] = result['origin'].apply(unidecode)
         result['destination_name_normalized'] = result['destination'].apply(unidecode)
+        
+        # Substituição de vírgulas por pontos na coluna 'distance'
+        result['distance'] = result['distance'].str.replace(',', '.')
 
-        # Removendo duplicatas no DataFrame final
+        # Remoção de duplicatas
         result.drop_duplicates(inplace=True)
         result.reset_index(drop=True, inplace=True)
-        
+
+        # Mapeamento do nome da origem para o código IBGE
+        result = result.merge(df_municipios[['nome', 'codigo_ibge']],
+                              left_on='origin', right_on='nome', how='left')
+        result = result.rename(columns={'codigo_ibge': 'origin_id'})
+
+        # Mapeamento do nome do destino para o código IBGE
+        result = result.merge(df_municipios[['nome', 'codigo_ibge']],
+                              left_on='destination', right_on='nome', how='left')
+        result = result.rename(columns={'codigo_ibge': 'destination_id'})
+
+        # Remoção de colunas desnecessárias
+        result = result.drop(['nome_x', 'nome_y'], axis=1)
+
         return result
-        
+
     except Exception as e:
         return f"Erro durante a transformação: {str(e)}"

@@ -1,9 +1,7 @@
 from datetime import datetime
 
-
 class Records:
-    def __init__(self, id, uuid, created_at, updated_at):
-        self.id = id
+    def __init__(self, uuid, created_at, updated_at):
         self.uuid = uuid
         self.created_at = created_at
         self.updated_at = updated_at
@@ -11,15 +9,16 @@ class Records:
     @classmethod
     def from_csv(cls, row):
         return cls(
-            id=int(row['id']),
-            uuid=int(row['uuid']),
-            created_at=datetime.strptime(row['created_at'], "%Y-%m-%d %H:%M:%S"),
-            updated_at=datetime.strptime(row['updated_at'], "%Y-%m-%d %H:%M:%S")
+            uuid=row['uuid'],
+            created_at=datetime.now(),
+            updated_at=datetime.now()
         )
 
 
+
 class Location:
-    def __init__(self, name, region, country, lat, lon, tz_id):
+    def __init__(self, id, name, region, country, lat, lon, tz_id):
+        self.id = id
         self.name = name
         self.region = region
         self.country = country
@@ -30,18 +29,20 @@ class Location:
     @classmethod
     def from_csv(cls, row):
         return cls(
+            id=row['system_id'],
             name=row['name'],
             region=row['region'],
             country=row['country'],
             lat=float(row['lat']),
             lon=float(row['lon']),
-            tz_id=row['tz_id']
+            tz_id=row['tz_id'],
         )
         
         
 class Weather:
-    def __init__(self, name, condition, temp_c, temp_f, is_day, wind_mph, pressure_mb, precip_mm, humidity, cloud, feelslike_c, feelslike_f, created_at, updated_at):
-        self.name = name
+    def __init__(self, record, location, condition, temp_c, temp_f, is_day, wind_mph, pressure_mb, precip_mm, humidity, cloud, feelslike_c, feelslike_f, created_at, updated_at):
+        self.record = record
+        self.location = location
         self.condition = condition
         self.temp_c = temp_c
         self.temp_f = temp_f
@@ -59,7 +60,8 @@ class Weather:
     @classmethod
     def from_csv(cls, row):
         return cls(
-            name=row['name'],
+            record=row['record_id'],
+            location=row['system_id'],
             condition=row['condition'],
             temp_c=float(row['temp_c']),
             temp_f=float(row['temp_f']),
@@ -76,6 +78,8 @@ class Weather:
         )
         
 
+from datetime import datetime
+
 class Directions:
     def __init__(self, record_id, origin_id, destination_id, distance, trip_long, created_at, updated_at):
         self.record_id = record_id
@@ -89,11 +93,11 @@ class Directions:
     @classmethod
     def from_csv(cls, row):
         return cls(
-            record_id=int(row['record_id']),
-            origin_id=int(row['origin_id']),
-            destination_id=int(row['destination_id']),
-            distance=float(row['distance']),
+            record_id=row['record_id'],
+            origin_id=row['origin_id'],
+            destination_id=row['destination_id'],
+            distance=row['distance'],
             trip_long=row['trip_long'],
-            created_at=datetime.strptime(row['created_at'], "%Y-%m-%d %H:%M:%S"),
-            updated_at=datetime.strptime(row['updated_at'], "%Y-%m-%d %H:%M:%S")
+            created_at=datetime.strptime(row['current_time'], "%Y-%m-%d %H:%M:%S"),
+            updated_at=datetime.now()
         )
