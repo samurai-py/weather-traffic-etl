@@ -1,8 +1,9 @@
 from airflow import DAG
 from airflow.operators.postgres_operator import PostgresOperator
 from datetime import datetime, timedelta
+import os
 
-REDSHIFT_CONN_ID = "redshift_wt"
+REDSHIFT_CONN_ID = os.environ.get('REDSHIFT_CONN_ID')
 
 default_args = {
     'owner': 'airflow',
