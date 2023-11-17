@@ -1,0 +1,9 @@
+{
+    "cols": [
+        "origin",
+        "destination",
+        "duration",
+        "distance",
+        "current_time"
+    ]
+  }

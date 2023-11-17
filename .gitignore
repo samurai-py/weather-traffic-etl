@@ -1,0 +1,19 @@
+.git
+.env
+.DS_Store # macOS specific ignore
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+/download/
+.env
+__pycache__/
+/logs/
+venv/
+backup/
+Dockerfilebackup
