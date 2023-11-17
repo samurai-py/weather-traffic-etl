@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-GOOGLE_API_KEY = os.environ.get('DIRECTIONS_API_KEY')
+DIRECTIONS_API_KEY = os.environ.get('DIRECTIONS_API_KEY')
 
 def get_directions(dataframe=None, num_cities=None):
     cities_data_filtered = dataframe[:num_cities]
@@ -33,7 +33,7 @@ def get_directions(dataframe=None, num_cities=None):
         params = {
             "origin": origin_lat_lon,
             "destination": destination_lat_lon,
-            "key": GOOGLE_API_KEY,
+            "key": DIRECTIONS_API_KEY,
             "language": 'pt-BR'
         }
 

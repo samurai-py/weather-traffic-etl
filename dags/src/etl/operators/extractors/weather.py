@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-WEATHER_API_KEY = "eacb618dcb074af4b3c203226230701"
+WEATHER_API_KEY = os.environ.get('WEATHER_API_KEY')
 
 def weather_request(url):
     request = requests.get(url)
