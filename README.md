@@ -57,6 +57,8 @@ Criar uma DAG que avisa por e-mail quando alguma das validações der errado.
 
 Código sempre pode ser refatorado. A ideia é deixá-lo cada vez mais limpo.
 
+HOSPEDAR NA ASTRONOMER NÉ :D
+
 ## Recomendações para a Instalação
 
 - Eu utilizei um banco de dados Redshift, WeatherApi e a Api de Mapas da Google. Você precisará configurar variáveis de ambiente para usá-los. Os campos necessários são:
