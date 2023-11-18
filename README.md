@@ -80,6 +80,9 @@ HOSPEDAR NA ASTRONOMER NÉ :D
 - Você também tem que ter o Python na sua máquina para iniciar o ambiente com `astro dev init`, além do **Docker Desktop**
 - Todos os arquivos `.csv` são gerados pelas dags, com exceção do `municipios.csv`, que eu adaptei manualmente porque os disponíveis na internet continuam erros.
 
+Tutorial da Astro aí embaixo. Flw 🚀
+
+========
 
 Overview
 ========
