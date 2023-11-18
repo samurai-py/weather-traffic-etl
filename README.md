@@ -59,6 +59,8 @@ Código sempre pode ser refatorado. A ideia é deixá-lo cada vez mais limpo.
 
 HOSPEDAR NA ASTRONOMER NÉ :D
 
+***EDIT***: *Já está hospedado. Positivo e operante 24/7 :p*
+
 ## Recomendações para a Instalação
 
 - Eu utilizei um banco de dados Redshift, WeatherApi e a Api de Mapas da Google. Você precisará configurar variáveis de ambiente para usá-los. Os campos necessários são:
