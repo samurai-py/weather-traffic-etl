@@ -1,13 +1,18 @@
+import os
+
 import pandas as pd
+
+
+SRC_PATH = os.environ.get("SRC_PATH")
 
 def directions_transform():
     try:
         
         # Leitura do CSV dos municípios
-        df_municipios = pd.read_csv('/usr/local/airflow/dags/src/data/municipios.csv')
+        df_municipios = pd.read_csv(f'{SRC_PATH}/municipios.csv')
         
         # Leitura do CSV das direções
-        df_directions = pd.read_csv('/usr/local/airflow/dags/src/data/directions_raw_data.csv')
+        df_directions = pd.read_csv(f'{SRC_PATH}/directions_raw_data.csv')
         
         df_directions['current_time'] = pd.to_datetime(df_directions['current_time'])
         

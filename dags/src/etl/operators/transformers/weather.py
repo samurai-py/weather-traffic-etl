@@ -1,10 +1,15 @@
+import os
+
 import pandas as pd
+
+
+SRC_PATH = os.environ.get("SRC_PATH")
 
 def weather_transform():
     try:
         # Carregue o DataFrame dos municípios
-        municipios_df = pd.read_csv('/usr/local/airflow/dags/src/data/municipios.csv', encoding='utf-8')
-        df = pd.read_csv('/usr/local/airflow/dags/src/data/weather_raw_data.csv')
+        municipios_df = pd.read_csv(f'{SRC_PATH}/data/municipios.csv', encoding='utf-8')
+        df = pd.read_csv(f'{SRC_PATH}/data/weather_raw_data.csv')
         df['localtime'] = pd.to_datetime(df['localtime'])
         df['last_updated'] = pd.to_datetime(df['last_updated'])
         df = df.drop(columns=['condition', 'name'], axis=1)
@@ -29,12 +34,6 @@ def weather_transform():
         result.drop_duplicates(inplace=True)
         result.reset_index(drop=True, inplace=True)
 
-        return result
-
-        # Removendo duplicatas no DataFrame final
-        result.drop_duplicates(inplace=True)
-        result.reset_index(drop=True, inplace=True)
-        
         return result
         
     except Exception as e:

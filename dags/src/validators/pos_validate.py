@@ -1,7 +1,12 @@
+import os
+
 import great_expectations as ge
 import pandas as pd
 
 from src.validators.validation_assets.read_json import read_json_file
+
+
+SRC_PATH = os.environ.get("SRC_PATH")
 
 def run_pos_validate(file_path, cols_json, cities_json, name_normalized_cols=None):
 
@@ -55,5 +60,5 @@ def run_pos_validate(file_path, cols_json, cities_json, name_normalized_cols=Non
 
 if __name__ == "__main__":
     # Modifique os caminhos dos arquivos e do JSON conforme necessário
-    run_pos_validate(file_path='/usr/local/airflow/dags/src/data/weather_cleaned_data.csv', cols_json='validation_assets/cols/weather_cols.json', cities_json='validation_assets/cities.json')
-    run_pos_validate(file_path='/usr/local/airflow/dags/src/data/directions_cleaned_data.csv', cols_json='validation_assets/cols/directions_cols.json', cities_json='validation_assets/cities.json', name_normalized_cols=['origin_name_normalized', 'destination_name_normalized'])
+    run_pos_validate(file_path=f'{SRC_PATH}/data/weather_cleaned_data.csv', cols_json='validation_assets/cols/weather_cols.json', cities_json='validation_assets/cities.json')
+    run_pos_validate(file_path=f'{SRC_PATH}/data/directions_cleaned_data.csv', cols_json='validation_assets/cols/directions_cols.json', cities_json='validation_assets/cities.json', name_normalized_cols=['origin_name_normalized', 'destination_name_normalized'])

@@ -1,5 +1,7 @@
 import os
+
 import psycopg2
+
 from src.etl.operators.loaders.loader import run_load
 
 def connect_and_insert(table_name):

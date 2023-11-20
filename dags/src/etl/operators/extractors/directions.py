@@ -1,8 +1,10 @@
+import os
 import itertools
 import requests
+
 import pandas as pd
 from datetime import datetime
-import os
+
 
 DIRECTIONS_API_KEY = os.environ.get('DIRECTIONS_API_KEY')
 

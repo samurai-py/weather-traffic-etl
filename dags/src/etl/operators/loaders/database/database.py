@@ -1,5 +1,3 @@
-from uuid import uuid4
-from datetime import datetime
 
 class Column:
     def __init__(self, name, data_type, is_primary_key=False, references=None, default=None):

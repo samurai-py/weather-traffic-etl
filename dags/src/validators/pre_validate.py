@@ -1,6 +1,12 @@
+import os
+
 import great_expectations as ge
 import pandas as pd
+
 from src.validators.validation_assets.read_json import read_json_file
+
+
+SRC_PATH = os.environ.get("SRC_PATH")
 
 def run_pre_validate(file_path, validation_cols_json):
     # Carregue seu DataFrame
@@ -33,5 +39,5 @@ def run_pre_validate(file_path, validation_cols_json):
 
 if __name__ == "__main__":
     # Modifique os caminhos dos arquivos e do JSON conforme necessário
-    run_pre_validate(file_path='/usr/local/airflow/dags/src/data/weather_raw_data.csv', validation_cols_json='validation_assets/cols/weather_cols.json')
-    run_pre_validate(file_path='/usr/local/airflow/dags/src/data/directions_raw_data.csv', validation_cols_json='validation_assets/cols/directions_cols.json')
+    run_pre_validate(file_path=f'{SRC_PATH}/data/weather_raw_data.csv', validation_cols_json='validation_assets/cols/weather_cols.json')
+    run_pre_validate(file_path=f'{SRC_PATH}/data/directions_raw_data.csv', validation_cols_json='validation_assets/cols/directions_cols.json')

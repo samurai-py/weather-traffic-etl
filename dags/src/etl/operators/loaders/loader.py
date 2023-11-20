@@ -1,6 +1,12 @@
-from src.etl.operators.loaders.mapper.mapper import Location, Weather, Directions, Records
+import os
+
 from datetime import datetime
 import csv
+
+from src.etl.operators.loaders.mapper.mapper import Location, Weather, Directions, Records
+
+
+SRC_PATH = os.environ.get("SRC_PATH")
 
 def run_load(table_name=None):
 
@@ -22,7 +28,7 @@ def run_load(table_name=None):
 
 def read_location_data_from_csv():
     # Nome do arquivo CSV
-    csv_filename = '/usr/local/airflow/dags/src/data/weather_cleaned_data.csv'
+    csv_filename = f'{SRC_PATH}/data/weather_cleaned_data.csv'
 
     # Lista para armazenar instâncias da classe Location
     locations = []

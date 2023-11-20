@@ -1,12 +1,14 @@
 import os
-import requests
+
 import pandas as pd
-from datetime import datetime
 
 from src.etl.operators.extractors.weather import get_weather
 from src.etl.operators.extractors.directions import get_directions
 
-def run_extract(weather_output_path='/usr/local/airflow/dags/src/data/weather_raw_data.csv', directions_output_path='/usr/local/airflow/dags/src/data/directions_raw_data.csv'):
+
+SRC_PATH = os.environ.get("SRC_PATH")
+
+def run_extract(weather_output_path=f'{SRC_PATH}/data/weather_raw_data.csv', directions_output_path=f'{SRC_PATH}/data/directions_raw_data.csv'):
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
     print(f"Usando o diretório: {script_dir}")
