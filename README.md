@@ -30,9 +30,9 @@ Foram feitos pequenos testes para garantir a qualidade dos dados utilizando `gre
 │       │   │   ├───extractors
 │       │   │   ├───loaders
 │       │   │   │   ├───database
-│       │   │   │   ├───mapper
-│       │   │   ├───transformers
-│       │   ├───sql
+│       │   │   │   └───mapper
+│       │   │   └───transformers
+│       │   └───sql
 │       └───validators
 │           └───validation_assets
 │               └───cols
